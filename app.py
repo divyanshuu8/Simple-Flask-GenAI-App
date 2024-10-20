@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 app = Flask(__name__)
 
 # Replace with your actual Gemini API key
-api_key = 'AIzaSyDLzvDSnpZ2j_OMWEBak-Nl2vQ71jOmk-0'
+api_key = 'enter-your-apiKey'
 
 def call_gemini_api(prompt, task):
     """
